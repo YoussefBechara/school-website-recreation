@@ -1,0 +1,120 @@
+body {
+    background-color: pink;
+    margin: 0px;
+    padding: 0px;
+}
+#h {
+background-color: white;
+border: 6px solid;
+border-color: white;
+padding: 5px;
+margin: 0px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-style: bold;
+font-size: 20px;
+}
+#left, #middle, #right {
+    display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;
+} 
+#e {
+    width: 35px;
+    height: 35px;
+} 
+#f {
+    width: 70x;
+    height: 35px;
+}
+#left {
+    align-items: flex-start;
+}
+#right {
+    align-items: flex-end;
+}
+#middle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#BOX {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    float: right;
+    margin: 70px;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px;
+}
+#espace {
+    text-align: center;
+    font-family: Arial;
+    color: black;
+}
+#eleve {
+    margin-left: 130px;
+}
+#lflhn {
+    margin-left: 20px;
+    align-items: flex-start;
+}
+#u, #l {
+    display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;
+}
+#recuperer {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+#recuperer:hover {
+    text-decoration: underline;
+}
+#l {
+    margin-left: 10px;
+}
+#submit {
+    margin-left: 20px;
+    width: 90%;
+    background-color: rgb(33, 109, 52);
+    border-radius: 50px;
+    height: 8%;
+    border-color: rgb(33, 109, 52);
+}
+#submit:hover {
+background-color: rgb(33, 109, 30);
+transition: 0.5s;
+}
+#connectlink {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#identifiant, #motdepasse{
+    width: 130%;
+}
+#down {
+    margin-top: 567px;
+    background-color: rgb(82, 82, 82);
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+#mentions {
+    color: white;
+    text-decoration: none;
+}
+#downleft, #downmid,#down7ad {
+    display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;
+}
+#downright {
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(82, 82, 82);
+    border-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 15%;
+    margin-bottom: 100px;
+    position: absolute;
+    right: 50px;
+    bottom: 1rem;
+}
